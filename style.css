@@ -96,19 +96,29 @@ button:hover {
 
 .section {
   flex: 1;
-  background-color: #c2f2d0;
+  background-color: #8b5e3c; /* тёплый коричневый, сочетается с фоном */
   padding: 20px;
-  border: 2px solid black;
+  border: 2px solid #333;
   border-radius: 10px;
   text-align: center;
   box-sizing: border-box;
+  color: #fff3e0; /* светлый текст */
 }
 
 .section.left {
-  background-color: #d5f4e6;
+  background-color: #a9745b; /* чуть светлее для левого блока */
 }
 
 .section.right {
-  background-color: #f0e68c;
+  background-color: #b98868; /* ещё светлее для правого */
+}
+
+.section h2 {
+  color: #fff3e0; /* заголовок светлый */
+  background: none; /* убираем коричневый фон из h2 */
+}
+
+.section p {
+  color: #fff3e0;
 }
 
