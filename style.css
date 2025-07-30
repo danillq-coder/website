@@ -1,12 +1,12 @@
 body {
-  background-color: #fefbd8; /* Новый цвет фона */
+  background-color: #008744; /* Новый цвет фона */
   font-family: Arial, sans-serif;
   text-align: center;
   padding: 50px;
 }
 
 h1 {
-  color: #333;
+  color: #d62d20;
   background-color: #80ced6; /* Фон для заголовка */
 }
 
