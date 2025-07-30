@@ -5,3 +5,11 @@ document.getElementById('changeColorBtn').addEventListener('click', function() {
   const randomColor = colors[Math.floor(Math.random() * colors.length)];
   document.body.style.backgroundColor = randomColor;
 });
+ window.addEventListener("scroll", function () {
+  const info = document.getElementById("scrollInfo");
+  if (window.scrollY > 200) { // когда прокрутка > 200px
+    info.classList.add("show");
+  } else {
+    info.classList.remove("show");
+  }
+});
