@@ -86,3 +86,29 @@ button:hover {
 .scroll-info.show {
   right: 0; /* Появляется */
 }
+
+.main-sections {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  padding: 20px;
+}
+
+.section {
+  flex: 1;
+  background-color: #c2f2d0;
+  padding: 20px;
+  border: 2px solid black;
+  border-radius: 10px;
+  text-align: center;
+  box-sizing: border-box;
+}
+
+.section.left {
+  background-color: #d5f4e6;
+}
+
+.section.right {
+  background-color: #f0e68c;
+}
+
