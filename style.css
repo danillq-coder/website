@@ -69,3 +69,20 @@ button {
 button:hover {
   background-color: #45a049;
 }
+
+.scroll-info {
+  position: fixed;
+  top: 50%;
+  right: -220px; /* Спрятан за экраном */
+  transform: translateY(-50%);
+  background: #333;
+  color: white;
+  padding: 20px;
+  border-radius: 10px 0 0 10px;
+  width: 200px;
+  transition: right 0.5s;
+}
+
+.scroll-info.show {
+  right: 0; /* Появляется */
+}
