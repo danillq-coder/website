@@ -5,3 +5,14 @@ git commit -m "first commit"
 git branch -M main
 git remote add origin https://github.com/danillq-coder/website.git
 git push -u origin main
+
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Привет!</title>
+</head>
+<body>
+  <h1>Это мой сайт на GitHub Pages</h1>
+</body>
+</html>
