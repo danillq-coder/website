@@ -13,3 +13,17 @@ document.getElementById('changeColorBtn').addEventListener('click', function() {
     info.classList.remove("show");
   }
 });
+const scrollInfo = document.getElementById('scrollInfo');
+
+window.addEventListener('scroll', () => {
+  if (window.scrollY > 200) {
+    // показываем полоску
+    scrollInfo.classList.add('active');
+    scrollInfo.classList.remove('hidden');
+  } else {
+    // прячем полностью
+    scrollInfo.classList.remove('active');
+    scrollInfo.classList.add('hidden');
+  }
+});
+
