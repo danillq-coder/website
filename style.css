@@ -73,19 +73,30 @@ button:hover {
 .scroll-info {
   position: fixed;
   top: 50%;
-  right: -220px; /* Спрятан за экраном */
+  right: -180px; /* спрятан почти весь, видна только ~20px полоска */
   transform: translateY(-50%);
   background: #333;
   color: white;
   padding: 20px;
   border-radius: 10px 0 0 10px;
   width: 200px;
-  transition: right 0.5s;
+  transition: right 0.3s ease;
+  cursor: pointer;
+  overflow: hidden;
 }
 
-.scroll-info.show {
-  right: 0; /* Появляется */
+.scroll-info.active {
+  right: -180px; /* полоска */
 }
+
+.scroll-info.active:hover {
+  right: 0; /* выезжает полностью */
+}
+
+.scroll-info.hidden {
+  right: -220px; /* полностью скрыт */
+}
+
 
 .main-sections {
   display: flex;
