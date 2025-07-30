@@ -1,4 +1,4 @@
-alert("Привет! Я JS из отдельного файла");
+// eto komanda stoby vyskakivala kak otkryvajes sajt alert("Привет! Я JS из отдельного файла");
 
 document.getElementById('changeColorBtn').addEventListener('click', function() {
   // Меняем цвет фона body на случайный
