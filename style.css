@@ -1,5 +1,5 @@
 body {
-  background-color: #f4f4f4;
+  background-color: #fefbd8; /* Новый цвет фона */
   font-family: Arial, sans-serif;
   text-align: center;
   padding: 50px;
@@ -7,9 +7,22 @@ body {
 
 h1 {
   color: #333;
+  background-color: #80ced6; /* Фон для заголовка */
 }
 
 p {
   font-size: 18px;
   color: #555;
+}
+
+/* Новые стили */
+div {
+  background-color: #d5f4e6;
+  padding: 10px;
+  margin: 10px;
+}
+
+span {
+  background-color: #f18973;
+  padding: 3px 5px;
 }
