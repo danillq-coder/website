@@ -12,6 +12,12 @@ h1 {
   margin-bottom: 20px;
 }
 
+h2 {
+  color: #6b3e26;
+  background-color: #6b3e26;
+  margin-bottom: 20px;
+}
+
 p {
   font-size: 18px;
   color: #ffc5d9;
