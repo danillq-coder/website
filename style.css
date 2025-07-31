@@ -73,7 +73,7 @@ button:hover {
 .scroll-info {
   position: fixed;
   top: 50%;
-  right: -180px; /* спрятан почти весь */
+  right: -180px;
   transform: translateY(-50%);
   background: #333;
   color: white;
@@ -83,24 +83,20 @@ button:hover {
   transition: right 0.3s ease;
   cursor: pointer;
   overflow: hidden;
-  z-index: 1000; /* чтобы точно был сверху */
+  z-index: 1000;
 }
 
-/* Когда класс active есть — видна полоска */
-.scroll-info.active {
-  right: -180px;
-}
-
-/* При наведении на блок с active — блок выезжает */
-.scroll-info.active:hover {
-  right: 0;
-}
-
-/* Когда класс hidden — полностью спрятан */
 .scroll-info.hidden {
   right: -220px;
 }
 
+.scroll-info.active {
+  right: -20px;
+}
+
+.scroll-info.active:hover {
+  right: 0;
+}
 
 .main-sections {
   display: flex;
