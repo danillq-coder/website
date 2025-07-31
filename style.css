@@ -73,7 +73,7 @@ button:hover {
 .scroll-info {
   position: fixed;
   top: 50%;
-  right: -180px;
+  right: -160px; /* tol'ko 40px vidno sboku */
   transform: translateY(-50%);
   background: #333;
   color: white;
@@ -86,15 +86,13 @@ button:hover {
   z-index: 1000;
 }
 
-.scroll-info.hidden {
-  right: -220px;
+/* Kogda mysh ne navedenа — torčit poloska */
+.scroll-info:not(:hover) {
+  right: -160px;
 }
 
-.scroll-info.active {
-  right: -20px;
-}
-
-.scroll-info.active:hover {
+/* Pri hover — vyjezzhaet */
+.scroll-info:hover {
   right: 0;
 }
 
